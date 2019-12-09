@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307972389522",
+    "firebase_url": "https://wingchat-9c1f7.firebaseio.com",
+    "project_id": "wingchat-9c1f7",
+    "storage_bucket": "wingchat-9c1f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307972389522:android:274851631bf676bb1b444b",
+        "android_client_info": {
+          "package_name": "com.mario_antolovic.wingchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307972389522-hrit7dof01q86haoofpvt1tel7jpkimh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mario_antolovic.wingchat",
+            "certificate_hash": "ace83ec12b0b7cad3694a579844ec55bc9c028df"
+          }
+        },
+        {
+          "client_id": "307972389522-le2418bmof87k42cuhqnk4vri5pl79bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ytMMmGdmfGnDM86fxwh3cS9j9NKX3XI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307972389522-le2418bmof87k42cuhqnk4vri5pl79bi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

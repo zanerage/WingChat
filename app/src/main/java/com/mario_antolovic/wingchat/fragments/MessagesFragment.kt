@@ -1,4 +1,4 @@
-package com.mario_antolovic.wingchat.ui.dashboard
+package com.mario_antolovic.wingchat.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.mario_antolovic.wingchat.R
 
-class DashboardFragment : Fragment() {
+class MessagesFragment : Fragment() {
 
-    private lateinit var dashboardViewModel: DashboardViewModel
+    private lateinit var messagesViewModel: MessagesViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        dashboardViewModel =
-            ViewModelProviders.of(this).get(DashboardViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
+        messagesViewModel =
+            ViewModelProviders.of(this).get(MessagesViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_messages, container, false)
         val textView: TextView = root.findViewById(R.id.text_dashboard)
-        dashboardViewModel.text.observe(this, Observer {
+        messagesViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root
